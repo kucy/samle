@@ -30,6 +30,11 @@ AI识别 `/image/serach`
 
 修改`config/index.ts`中微信小程序和百度的`ApiKey`和`AppSecret`
 
+### 数据库安装
+https://blog.csdn.net/qq_36582604/article/details/80526287
+安装后导入基础sql/目录下的数据
+
+
 ### 修改数据库
 
 > 若是没有使用过Typeorm的同学们，请先简单了解下[Typeorm](https://github.com/typeorm/typeorm/blob/master/docs/zh_CN/README.md)
