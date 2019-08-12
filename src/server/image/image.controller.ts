@@ -28,6 +28,7 @@ export class ImageController {
   )
   async searchImage(@UploadedFile() file, @Body() params) {
     const data = file.buffer.toString('base64');
+    console.log(data)
     return await this.imageService.imageClassfiy(params.token, data);
   }
 }
